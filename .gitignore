@@ -1,0 +1,19 @@
+# CMake Build-Ausgabe
+out/
+build/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+CMakeSettings.json.bak
+
+# CMake generierte Praesets-Zwischendateien (NICHT CMakePresets.json selbst - die gehoert ins Repo!)
+CMakeUserPresets.json
+
+# Windows-spezifisch
+Thumbs.db
+desktop.ini
+
+# Editor-/IDE-generiertes
+*.user
+.vscode/
